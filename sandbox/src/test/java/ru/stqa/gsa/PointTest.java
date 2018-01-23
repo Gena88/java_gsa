@@ -17,6 +17,7 @@ public class PointTest {
         assert(m.distance()!= 0): "Выражение равно нулю";
     }
 
+
     @Test
     public void testPoint_3() {
         MPoint m = new MPoint(-1,2,1,2);
